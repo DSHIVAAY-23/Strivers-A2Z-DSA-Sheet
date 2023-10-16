@@ -1,0 +1,1 @@
+/data/others/RUST/A2Z_Rust/patterns/target/debug/patterns: /data/others/RUST/A2Z_Rust/patterns/src/main.rs /data/others/RUST/A2Z_Rust/patterns/src/p1.rs /data/others/RUST/A2Z_Rust/patterns/src/p2.rs /data/others/RUST/A2Z_Rust/patterns/src/p3.rs /data/others/RUST/A2Z_Rust/patterns/src/p4.rs
