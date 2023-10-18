@@ -3,6 +3,9 @@ use crate::q2::reverse_no;
 use crate::q3::palindrome_number;
 use crate::q4::amstrong_no;
 
+
+
+mod q5;
 mod q4;
 
 mod q3;
@@ -19,8 +22,9 @@ fn main() {
     println!("The  {}", reverse_no(1234));
     println!("  {}", palindrome_number(121));
     println!("  {}", amstrong_no(37));
-
     
+
+    q5::m();
 
 
 }
