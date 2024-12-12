@@ -24,7 +24,14 @@ impl LinkedList {
         self.head = Some(new_node);
     }
 
-  
+    pub fn pop(&mut self) -> Option<i32> {
+        match self.head.take() {
+            None => None,
+            Some(node) => {
+                self.head = node.next;
+                Some(node.elem)
+            }
+        }
     // Insert a new element at the tail of the list
     fn insert_at_tail(&mut self, data: i32) {
         let new_node = Box::new(Node { data, next: None });
